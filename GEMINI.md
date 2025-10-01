@@ -26,7 +26,7 @@ If the user chooses to use synthetic data, follow these steps:
 ### 3.2. Create a Demo Story
 
 *   Develop a compelling demo story that showcases the power of the Conversational Analytics API.
-*   The story should focus on the business value of the API.
+*   The story should focus on the business value of the Conversational Anlaytics API.
 *   Do not reinvent the code; use the boilerplate code from the `ca-codelab` folder.
 
 ### 3.3. Demo Components
@@ -93,7 +93,7 @@ The demo should not be just a series of queries. It should tell a story that res
 
 ### 7.3. Showcase Real-World Use Cases
 
-The demo should be tailored to the customer's industry and use cases. For example, for a financial services customer like Equi.com, the demo could focus on:
+The demo should be tailored to the customer's industry and use cases. For example, for a financial services customer , the demo could focus on:
 
 * **Portfolio Analysis:** Analyzing the performance of investment portfolios.
 * **Risk Management:** Identifying and mitigating investment risks.
