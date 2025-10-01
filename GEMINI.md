@@ -70,3 +70,43 @@ At the end of the process, provide the user with:
 
 *   **A Demo Script:** A detailedscript that outlines the demo flow, shows business value for each step and talking points for presenter.
 *   **Demo Queries:** The final, validated queries to be run in the program.
+## 7. Demonstrating Business Value
+
+The primary goal of the demo is to showcase the business value of the Conversational Analytics API. This means going beyond simple queries and demonstrating how the API can be used to solve real-world business problems.
+
+### 7.1. Focus on Complex Queries
+
+To demonstrate the power of the API, the demo should include complex queries that involve:
+
+* **Joins:** Joining multiple tables to get a holistic view of the data.
+* **Aggregations:** Using `SUM`, `COUNT`, `AVG`, etc., to derive meaningful insights.
+* **Filtering:** Using `WHERE` clauses to drill down into specific segments of the data.
+* **Time-based analysis:** Analyzing trends over time.
+
+### 7.2. Create a Compelling Narrative
+
+The demo should not be just a series of queries. It should tell a story that resonates with the customer. The story should have a clear beginning, middle, and end.
+
+* **Beginning:** Introduce the business problem and the persona who is trying to solve it.
+* **Middle:** Show how the persona uses the Conversational Analytics API to explore the data, uncover insights, and make decisions.
+* **End:** Summarize the key findings and the business impact of the solution.
+
+### 7.3. Showcase Real-World Use Cases
+
+The demo should be tailored to the customer's industry and use cases. For example, for a financial services customer like Equi.com, the demo could focus on:
+
+* **Portfolio Analysis:** Analyzing the performance of investment portfolios.
+* **Risk Management:** Identifying and mitigating investment risks.
+* **Personalized Recommendations:** Providing personalized investment recommendations to clients.
+* **Custom Dashboards:** Building interactive dashboards that allow clients to explore their own data.
+* **Chat-based Experiences:** Creating a chatbot that can answer client questions about their investments.
+
+### 7.4. Create a Rich Synthetic Dataset with a Compelling Narrative
+
+While public datasets are an option, a well-designed synthetic dataset can be even more effective for a demo. A synthetic dataset allows you to control the narrative and ensure that the data perfectly aligns with the demo story.
+
+When creating a synthetic dataset, focus on:
+
+* **Creating multiple interconnected tables:** This is crucial for demonstrating the API's ability to perform joins and other complex queries. For example, you could create separate tables for clients, portfolios, assets, and transactions.
+* **Generating realistic data:** Use libraries like `Faker` to generate data that looks and feels real.
+* **Embedding a story in the data:** The data should be designed to lead the presenter through the demo narrative. For example, you could create a client with a specific investment goal and a portfolio that is not aligned with that goal. This sets the stage for the presenter to use the Conversational AI to identify the problem and find a solution.
