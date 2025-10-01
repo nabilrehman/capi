@@ -20,6 +20,8 @@ If the user chooses to use synthetic data, follow these steps:
 ### 3.1. Deep Research
 
 *   Perform in-depth research using `web_fetch` and `google_search` on the user's provided website.
+*   Look for multiple data points, do reddit search, google search, linkedin search etc
+*   Look at company business model and do search for that as well, see data sources and analyze which data can be of real business value for this customer
 
 ### 3.2. Create a Demo Story
 
@@ -38,6 +40,7 @@ The demo must include:
 ### 3.4. Dataset Generation
 
 *   Generate a synthetic dataset that is relevant to the industry of the user's website or a similar dataset.
+*   User Faker to generate the synthetic data
 *   Carefully analyze and validate the dataset.
 *   Create dataset and rows that will impress the customer and demonstrate the API's ability to perform complex query analysis.
 
@@ -58,10 +61,12 @@ If the user chooses to use their own dataset, follow these steps:
 
 *   You are required to test all generated queries and validate that they run successfully.
 *   If a query fails, you must iteratively improve it until it works correctly.
+*   Run and test the scripts
 
+  
 ## 6. Final Deliverables
 
 At the end of the process, provide the user with:
 
-*   **A Demo Script:** A script that outlines the demo flow.
+*   **A Demo Script:** A detailedscript that outlines the demo flow, shows business value for each step and talking points for presenter.
 *   **Demo Queries:** The final, validated queries to be run in the program.
